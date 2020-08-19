@@ -1,3 +1,5 @@
+
+
 function minutosSegundos (min){
 var resultado= min* 60
  
