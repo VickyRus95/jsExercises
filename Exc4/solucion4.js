@@ -1,12 +1,12 @@
-function triangle (base,height){
+function calculateTriangleArea (base,height){
 let area= base*height/2
 return area
 }
-document. write ("El area del triangulo es "+ triangle(6,8)+ 
+document. write ("El area del triangulo es "+ calculateTriangleArea(6,8)+ 
 ", si su base es 6 y su altura es 8");
 document.write ("<br>")
-document. write ("El area del triangulo es "+ triangle(9,5)+ 
+document. write ("El area del triangulo es "+ calculateTriangleArea(9,5)+ 
 ", si su base es 9 y su altura es 5");
 document.write ("<br>")
-document. write ("El area del triangulo es "+ triangle(4,8)+ 
+document. write ("El area del triangulo es "+ calculateTriangleArea(4,8)+ 
 ", si su base es 4 y su altura es 8");
