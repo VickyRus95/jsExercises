@@ -1,5 +1,5 @@
 
-let valor= prompt ("Ingrese un valor")
+let hour= prompt ("Ingrese un valor")
 
 function hoursToSeconds (valor) {
 
@@ -7,5 +7,5 @@ function hoursToSeconds (valor) {
     }
     
     document.write ("<br>")
-    document.write ("Conversion de " + valor + " horas a segundos = " + hoursToSeconds (valor))
+    document.write ("Conversion de " + hour + " horas a segundos = " + hoursToSeconds (hour))
     document.write ("<br>")
