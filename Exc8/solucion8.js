@@ -12,7 +12,7 @@ function sumaNumeros (valor1, valor2){
     return solucion
 }
 
-document.write (sumaNumeros (numero1, numero2))
+document.write ("La suma de los valores es: " + sumaNumeros (numero1, numero2))
 
 
 
