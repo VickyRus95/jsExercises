@@ -1,3 +1,4 @@
+document.write ("Exc 3")
 function addition (num){
 let resultado= num + 1
 return resultado
