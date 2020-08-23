@@ -1,4 +1,4 @@
-
+document.write ("Exc 7")
 let hour= prompt ("Ingrese un valor")
 
 function hoursToSeconds (valor) {
