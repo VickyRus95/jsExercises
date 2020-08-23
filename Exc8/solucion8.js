@@ -1,3 +1,5 @@
+document.write ("Exc 1")
+document.write ("<br>")
 
 let numero1 = prompt ("Ingrese el primer numero")
 
