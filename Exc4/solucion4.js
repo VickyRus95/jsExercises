@@ -1,3 +1,7 @@
+
+document.write ("Exc 4")
+document.write ("<br>")
+
 function calculateTriangleArea (base,height){
 let area= base*height/2
 return area
