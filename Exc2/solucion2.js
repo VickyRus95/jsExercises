@@ -1,4 +1,5 @@
-
+document.write ("Exc 2")
+document.write ("<br>")
 
 function minutesToSeconds (min){
 var resultado= min* 60
