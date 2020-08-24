@@ -1,15 +1,15 @@
 function lessThanOrEqualToZero (num){
 if (num <= 0){
-    document.write ("TRUE")
+    return true
 }
-else {document.write ("FALSE")
+else {return false
 }
 }
 document.write ("<br>")
-lessThanOrEqualToZero(8)
+document.write (lessThanOrEqualToZero(8))
 document.write ("<br>")
-lessThanOrEqualToZero(-1)
+document.write (lessThanOrEqualToZero(-1))
 document.write ("<br>")
-lessThanOrEqualToZero(3)
+document.write (lessThanOrEqualToZero(3))
 document.write ("<br>")
-lessThanOrEqualToZero(0)
+document.write (lessThanOrEqualToZero(0))
