@@ -2,11 +2,9 @@ document.write ("Exc 11")
 document.write ("<br>")
 document.write ("<br>")
 function maximumRange (side1, side2){
-
 resultado= (side1 + side2) - 1 
 return resultado
 }
-
 let tercerLado= maximumRange (8, 10)
 document.write ("El tercer lado equivale a "+ tercerLado)
 document.write ("<br>")
