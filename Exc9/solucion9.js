@@ -1,4 +1,4 @@
-
+document.write ("Exc 9")
 
 
 function getFirstElement (numeros){
