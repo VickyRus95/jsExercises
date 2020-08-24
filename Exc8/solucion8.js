@@ -1,4 +1,4 @@
-document.write ("Exc 1")
+document.write ("Exc 8")
 document.write ("<br>")
 
 let numero1 = prompt ("Ingrese el primer numero")
