@@ -1,4 +1,4 @@
-
+document.write ("Exc 16 complete")
 function lessThan100 (num1, num2){
 let suma = num1 + num2
 if (suma < 100){return true}
