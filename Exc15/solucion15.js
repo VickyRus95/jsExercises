@@ -1,3 +1,4 @@
+document.write ("Exc 15")
 function lessThanOrEqualToZero (num){
 if (num <= 0){
     return true
