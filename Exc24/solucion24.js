@@ -1,8 +1,7 @@
 
 function matchHouses (step) {
-  let result= (step * 4) + (step + 1)
-    if (step===0){return 0}
-  else {return result} 
+  if (step===0) {return step}
+  else {return (step * 4) + (step + 1)} 
     
 }
 
