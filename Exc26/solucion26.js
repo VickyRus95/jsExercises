@@ -1,19 +1,18 @@
 
 function detectWord (charcode){
-
-    if(charCode >= "A".charCodeAt(0) && charCode <= "Z".charCodeAt(0)){
-
-        returnValue = "U";
-    
-    }else if (charCode >= "a".charCodeAt(0) &&
-                charCode <= "z".charCodeAt(0) ){
-        returnValue = "L";
+    let acumulador= "";
+    for (let i = 0; i < charcode.length; i++){
+    if (charcode[i] == charcode[i].toLowerCase()){
+        //console.log (charcode[i]);
+        acumulador += charcode [i]
+       }
     }
-
-}
+    console.log (acumulador)
+}  
 detectWord("UcUNFYGaFYFYGtNUH") 
 detectWord("bEEFGBuFBRrHgUHlNFYaYr") 
-detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment")
+detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment") 
+
 
 
 
