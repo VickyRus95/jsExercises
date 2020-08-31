@@ -1,0 +1,1 @@
+Se ingresan un conjunto de 5 alturas de personas por teclado. Mostrar la altura promedio de las personas.
