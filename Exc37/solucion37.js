@@ -1,6 +1,6 @@
-function removeDups (arr){
+function removeDups (arr1){
 
-    let dupsRemoved = [...new Set(arr)];
+    let dupsRemoved = [...new Set(arr1)];
     
 console.log(dupsRemoved);
 
