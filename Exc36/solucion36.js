@@ -1,5 +1,5 @@
-function countVowels (str1) {
-        return str1.match(/[aeiou]/gi).length;
+function countVowels (string) {
+        return string.match(/[aeiou]/gi).length;
     }
 
 console.log (countVowels("Celebration"))
