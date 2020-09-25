@@ -1,9 +1,9 @@
-function isAnagram (stringA, stringB) {
+function isAnagram (stringa, stringB) {
     
-    stringA = stringA.replace(/[^\w]/g, '').toLowerCase()
+    stringa = stringa.replace(/[^\w]/g, '').toLowerCase()
     stringB = stringB.replace(/[^\w]/g, '').toLowerCase()
 
-    return sortString(stringA) === sortString(stringB)
+    return sortString(stringa) === sortString(stringB)
 }
  
 function sortString(string) {
