@@ -1,13 +1,13 @@
-function isAnagram (stringa, stringB) {
-    
-    stringa = stringa.replace(/[^\w]/g, '').toLowerCase()
-    stringB = stringB.replace(/[^\w]/g, '').toLowerCase()
-
-    return sortString(stringa) === sortString(stringB)
+function isAnagram (str1, str2) {
+str1 = str1.replace(/[^\w]/g, '').toLowerCase()
+str2 = str2.replace(/[^\w]/g, '').toLowerCase()
+return sortString(str1) === sortString(str2)
 }
- 
 function sortString(string) {
-    return string.split('').sort().join('');
+    return string
+    .split('')
+    .sort()
+    .join('');
 }
 console.log (isAnagram("cristian", "Cristina"))
 
