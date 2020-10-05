@@ -1,5 +1,4 @@
 function getOnlyEvens(arr) {
-let allEven = []
 for (allEven = arr[0]; allEven < arr.length ; allEven++) {
 if(allEven % 2 == 0) {
 console.log (allEven) 
